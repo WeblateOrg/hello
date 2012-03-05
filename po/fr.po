@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: <noreply@example.net>\n"
-"POT-Creation-Date: 2012-03-05 15:55+0100\n"
+"POT-Creation-Date: 2012-03-05 15:58+0100\n"
 "PO-Revision-Date: 2012-03-05 15:55+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,7 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: main.c:10
+#: main.c:11
 #, c-format
 msgid "Hello, world!\n"
 msgstr ""
+
+#: main.c:12
+#, c-format
+msgid "Orangutan has %d banana.\n"
+msgid_plural "Orangutan has %d bananas.\n"
+msgstr[0] ""
+msgstr[1] ""
