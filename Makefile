@@ -11,7 +11,8 @@ hello: main.c
 
 po/hello.pot: main.c Makefile
 	xgettext -d hello -o $@ $<
-	sed -i 's/Report-Msgid-Bugs-To: \\n/Report-Msgid-Bugs-To: <noreply@example.net>\\n/' $@
+	sed -i 's/Report-Msgid-Bugs-To: .*\\n/Report-Msgid-Bugs-To: <noreply@example.net>\\n/' $@
+	sed -i 's/Project-Id-Version: .*\\n/Project-Id-Version: Weblate Hello World 2012\\n/' $@
 
 po/%.po: po/hello.pot
 	if [ ! -f $@ ] ; then \
@@ -19,6 +20,7 @@ po/%.po: po/hello.pot
 	else \
 		msgmerge -U $@ $< ; \
 	fi
+	sed -i 's/Project-Id-Version: .*\\n/Project-Id-Version: Weblate Hello World 2012\\n/' $@
 
 .PHONY: pofiles
 pofiles: $(addsuffix .po, $(addprefix po/, ${LANGUAGES}))
