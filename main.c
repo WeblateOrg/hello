@@ -10,5 +10,6 @@ int main(void)
     textdomain( "hello" );
     printf( gettext( "Hello, world!\n" ) );
     printf( ngettext( "Orangutan has %d banana.\n", "Orangutan has %d bananas.\n", count ), count );
+    printf( gettext( "Try Weblate at <http://demo.weblate.org/>!\n" ) );
     exit(0);
 }
