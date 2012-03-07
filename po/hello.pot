@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate Hello World 2012\n"
 "Report-Msgid-Bugs-To: <noreply@example.net>\n"
-"POT-Creation-Date: 2012-03-05 16:00+0100\n"
+"POT-Creation-Date: 2012-03-07 09:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,3 +29,8 @@ msgid "Orangutan has %d banana.\n"
 msgid_plural "Orangutan has %d bananas.\n"
 msgstr[0] ""
 msgstr[1] ""
+
+#: main.c:13
+#, c-format
+msgid "Try Weblate at <http://demo.weblate.org/>!\n"
+msgstr ""
