@@ -2,7 +2,7 @@
 # Simple Makefile for gettext sample application
 
 # Languages which we translate
-LANGUAGES=it pl ja fr cs gl sv nl ka tr fi ca hu nb es de lt ro mn pt_BR zh_CN zh_TW hy en_GB sk sl el da ru
+LANGUAGES=it pl ja fr cs gl sv nl ka tr fi ca hu nb es de lt ro mn pt_BR zh_CN zh_TW hy en_GB sk sl el da ru fa
 
 all: hello
 
