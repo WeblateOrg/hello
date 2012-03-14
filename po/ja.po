@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Weblate Hello World 2012\n"
 "Report-Msgid-Bugs-To: <noreply@example.net>\n"
-"POT-Creation-Date: 2012-03-07 09:17+0100\n"
+"POT-Creation-Date: 2012-03-14 15:54+0100\n"
 "PO-Revision-Date: 2012-03-05 15:55+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -31,4 +31,8 @@ msgstr[0] ""
 #: main.c:13
 #, c-format
 msgid "Try Weblate at <http://demo.weblate.org/>!\n"
+msgstr ""
+
+#: main.c:14
+msgid "Thank you for using Weblate."
 msgstr ""
