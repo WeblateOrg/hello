@@ -2,8 +2,8 @@ Hello World for Weblate
 =======================
 
 Weblate is a web-based translation tool. It is based on `translate-toolkit` and
-heavily uses git's backups in order to store projects. You can find more information
-here, on <https://weblate.org/>.
+heavily relies on version control system to store and synchronize the
+translations. You can find more information here, on <https://weblate.org/>.
 
 This repository contains a sample translatable project that allows users to play with
 Weblate.
