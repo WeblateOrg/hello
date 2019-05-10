@@ -8,7 +8,7 @@ translations. You can find more information here, on <https://weblate.org/>.
 This repository contains a sample translatable project that allows users to play with
 Weblate.
 
-You can try this project out on <https://demo.weblate.org/>!
+You can try this project out on <https://hosted.weblate.org/projects/sandbox/>.
 
 The translation files are intentionally kept untranslated, so please do not
 translate them. Pull requests to this repository will most likely be rejected
