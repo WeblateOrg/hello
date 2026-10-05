@@ -1,11 +1,3 @@
-.. image:: https://s.weblate.org/cdn/Logo-Darktext-borders.png
-   :alt: Weblate
-   :target: https://weblate.org/
-   :height: 80px
-
-**Weblate is a copylefted libre software web-based continuous localization system,
-used by over 1150 libre projects and companies in more than 115 countries.**
-
 Hello World for Weblate
 =======================
 
@@ -22,3 +14,10 @@ The translation files are intentionally kept untranslated, so please do not
 translate them. Pull requests to this repository will most likely be rejected
 as it serves its purpose well as is (there are dozen of translations, all of
 them are empty).
+
+.. image:: https://s.weblate.org/cdn/Logo-Darktext-borders.png
+   :target: https://weblate.org/
+   :alt: Weblate
+   :height: 55px
+
+Part of `Weblate <https://weblate.org/>`_ — a privacy-respecting localization platform built on open-source foundations.
